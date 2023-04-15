@@ -1,0 +1,101 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-color: #191970;
+   font-family: Arial, Helvetica, sans-serif;
+   line-height: 1.7;
+   color: #fff;
+}
+.container
+{
+    width: 80%;
+    overflow: hidden;
+}
+.page
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+}
+.page h1
+{
+    margin-top: 20px;
+    font-size: 2.6rem;
+    text-decoration: underline;
+    font-style: italic;
+}
+.page .container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.page .container .field
+{
+    background-color: rgba(0,0,0,0.9);
+    margin: 20px;
+    padding: 100px 30px;
+    width: auto;
+    height: auto;  
+}
+
+
+button
+{
+    display:inline-block;
+    margin-top: 10px;
+    background-color: #5b4e4b;
+    color: #fff;
+    padding: 15px 10px;
+    outline: transparent;
+    border: none;
+    border-radius: 7px;
+}
+button:hover
+{
+    background-color: rgba(255,0,255,0.4);
+    cursor: pointer;
+}
+input
+{
+    display: inline-block;
+    padding: 10px 7px;
+    margin-top: 20px;
+    outline: transparent;
+    border-radius: 5px;
+    border: 0;
+    background-color: rgba(255,255,0,0.4);
+    color: #fff;
+    
+}
+p
+{
+    font-weight: bold;
+    margin-top: 15px;
+}
+@media (max-width:1120px) {
+
+    .page .container{
+        flex-direction: column;
+    }
+    .item
+    {
+        margin: 20px;
+    }
+    .page .container .desired 
+    {
+      width: auto;
+      height: auto;
+    }
+   
+
+    
+}
